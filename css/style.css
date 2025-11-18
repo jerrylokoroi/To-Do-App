@@ -135,9 +135,46 @@ ul li span:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Dark Mode Styles */
 .dark-mode .container {
-    background: #333;
+    background: #1a1a1a;
+}
+
+.dark-mode .todo-app {
+    background: #2d2d2d;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .todo-app h2 {
+    color: #85CF06;
+}
+
+.dark-mode .row {
+    background: #3a3a3a;
+}
+
+.dark-mode input {
     color: #fff;
+}
+
+.dark-mode ul li {
+    color: #ddd;
+}
+
+.dark-mode ul li:hover {
+    background: #3a3a3a;
+}
+
+.dark-mode ul li.checked {
+    color: #888;
+}
+
+.dark-mode ul li span {
+    color: #ddd;
+}
+
+.dark-mode ul li span:hover {
+    background: #3a3a3a;
 }
 
 .dark-mode-toggle {
